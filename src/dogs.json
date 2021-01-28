@@ -5,8 +5,8 @@
         "age": "3",
         "img": "https://www.purinaone.ru/dog/sites/purinaonedog.ru/files/2019-08/m_8.jpg",
         "adaptivity":"7",
-        "height":"80",
-        "sex":"Мальчик"
+        "sex":"Мальчик",
+        "phone": "+375-44-711-65-23"
     },
     {
         "id": "2",
@@ -14,63 +14,71 @@
         "age": "4",
         "img": "https://zooclub.ru/attach/45.jpg",
         "adaptivity":"8",
-        "height":"60",
-        "sex":"Мальчик"
+        "sex":"Мальчик",
+        "phone": "+375-44-241-85-93"
+
     },{
         "id": "3",
         "name": "Кай",
         "age": "1",
         "img": "https://pets.mail.ru/pre_rect840x0_resize/pic/wysiwyg/2019/07/25/dog-2867887_1280.jpg",
         "adaptivity":"10",
-        "height":"50",
-        "sex":"Мальчик"
+        "sex":"Мальчик",
+        "phone": "+375-29-221-45-20"
+
     },{
         "id": "4",
         "name": "Бэкки",
         "age": "9",
         "img": "https://i.ytimg.com/vi/bP3I-BpYLxw/maxresdefault.jpg",
         "adaptivity":"7",
-        "height":"40",
-        "sex":"Девочка"
+        "sex":"Девочка",
+        "phone": "+375-29-333-44-21"
+
     },{
         "id": "5",
         "name": "Тобик",
         "age": "8",
         "img": "https://avatars.mds.yandex.net/get-zen_doc/114080/pub_5c39e654f896a200ab70a4b9_5c39e6a827f43a00acb0dd32/scale_1200",
         "adaptivity":"8",
-        "height":"80",
-        "sex":"Мальчик"
+        "sex":"Мальчик",
+        "phone": "+375-44-779-22-43"
+
     },{
         "id": "6",
         "name": "Шон",
         "age": "2",
         "img": "https://m.progorodnn.ru/userfiles/blog/_cke/0/img15393938991884.jpg",
         "adaptivity":"9",
-        "height":"30",
-        "sex":"Мальчик"
+        "sex":"Мальчик",
+        "phone": "+375-44-920-72-41"
+
     },{
         "id": "7",
         "name": "Эдди",
         "age": "7",
         "img": "https://pets.mail.ru/pre_rect840x0_resize/pic/wysiwyg/2019/07/25/dog-2524814_1280.jpg",
         "adaptivity":"9",
-        "height":"65",
-        "sex":"Мальчик"
+        "sex":"Мальчик",
+        "phone": "+375-44-019-78-03"
+
     },{
         "id": "8",
         "name": "Эбби",
         "age": "10",
         "img": "https://sobaki.guru/wp-content/uploads/2018/01/sobaki-dvornyazhki_6_18100040.jpg",
         "adaptivity":"6",
-        "height":"45",
-        "sex":"Девочка"
+        "sex":"Девочка",
+        "phone": "+375-29-229-44-42"
+
     },{
         "id": "9",
         "name": "Триша",
         "age": "6",
         "img": "https://usatiki.ru/wp-content/uploads/2017/07/Sobaka-metis-2.jpg",
         "adaptivity":"7",
-        "height":"62",
-        "sex":"Девочка"
+        "sex":"Девочка",
+        "phone": "+375-44-559-19-01"
+
     }
 ]

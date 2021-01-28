@@ -3,28 +3,28 @@
         "name": "Лиза",
         "phone": "+375291234567",
         "id": "1",
-        "favorites":[]
+        "favorites":[1]
     },
     {
         "name": "Ольга",
         "phone": "+375297654321",
         "id": "2",
-        "favorites":[1,2,3]
+        "favorites":[1,3]
     },{
         "name": "Сергей",
         "phone": "+375291111111",
         "id": "3",
-        "favorites":[]
+        "favorites":[2]
     },{
         "name": "Вероника",
         "phone": "+375292222222",
         "id": "4",
-        "favorites":[]
+        "favorites":[4,9]
     },{
         "name": "Денис",
         "phone": "+375293333333",
         "id": "5",
-        "favorites":[]
+        "favorites":[8,10]
     }
 
 ]

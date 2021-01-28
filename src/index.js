@@ -40,40 +40,13 @@ router.post("/sign-in", async (ctx) => {
   console.log(typedPhone);
 
   const user = USERS.find((item) => item.phone === typedPhone);
-  ctx.body = user;
+  user
+    ? (ctx.body = user)
+    : (ctx.body = "Номер телефона не введен или введен неверно!");
+  console.log(ctx.body);
 });
 
-// router.post("/login", (ctx) => {
-//   try {
-//     //1) Получить имейл и пароль из запроса
-//     const { email, password } = ctx.request.body;
-//     console.log(email, password);
-//     //2) По имейлоу найти человека в бд
-//     const user = PEOPLE.find((item) => {
-//       return item.email === email;
-//     });
-
-//     if (!user) {
-//       throw new Error("Такого пользователя не существует");
-//     }
-//     //3) Сравнить пароли
-//     if (user.password !== password) {
-//       throw new Error("Пароль неверный");
-//     }
-
-//     ctx.body = user;
-//   } catch (err) {
-//     ctx.status = 400;
-//     ctx.body = err.message;
-//   }
-// });
-
 app.use(router.routes()); //применяет роуты к серверу, сервер вилит  и вызывает ф-ции. app.use добавляет обработчик ко вход запросу
-
-// app.use((ctx) => {
-//   console.log("Hello");
-//   ctx.body = DOGS;
-// });
 
 app.listen(3001, () => {
   console.log("server started on port 3001");
